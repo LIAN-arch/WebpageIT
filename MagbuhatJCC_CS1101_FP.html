@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="FPstyle.css">
+    <title>Interactive Portfolio Webpage</title>
+</head>
+<body>
+    <div id="intro-video">
+        <video id="intro" width="800" height="auto" autoplay muted>
+            <source src="intro.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <div id="main-content">
+        <nav class="primary-navbar">
+            <ul>
+                <li><a><b>WELCOME TO MY WEBSITE</b></a></li>
+            </ul>
+        </nav>
+
+        <nav class="secondary-navbar">
+            <ul>
+                <li><a href="#" onclick="showSection('home')"><b>Home</b></a></li>
+                <li><a href="#" onclick="showSection('skills')"><b>Skills</b></a></li>
+                <li><a>Sustainable Development Goal</a> 
+                    <div class="dropdown-content">
+                        <a href="#" onclick="showSection('goal')"><b>Goal</b></a>
+                        <a href="#" onclick="showSection('projects')"><b>Project</b></a>
+                    </div>
+                </li>
+                <li><a href="#" onclick="showSection('contact')"><b>Contact</b></a></li>
+            </ul>
+        </nav>
+
+    <div id="home" class="section active"> 
+        <img src="picture.jpg" type="jpg" class="profile-photo">
+        <h1>JULIAN CARLO C. MAGBUHAT</h1>
+        <h2>COMPUTER SCIENCE STUDENT</h2>
+        <p>Hello! I'm Julian Carlo C. Magbuhat, a passionate computer science student interested in software development. I am 18 years old and eagerly looking forward to turning 19 on October 25, 2025. Currently, I am studying at Batangas State University, located in Alangilan, Batangas City. At my university, I have been consistently exploring innovative ways to solve problems and enhance user experiences through technology.</p>
+        <p>I have always been driven by a desire to understand how things work and to use that knowledge to create practical solutions. My academic journey has been marked by consistent performance and a thirst for learning. I enjoy working on activities that challenge my thinking and allow me to apply my knowledge in practical settings. When I'm not coding, you can find me reading, watching horror movies, playing video games, cooking, and eating.</p>
+    </div>
+    <div id="skills" class="section"> 
+        <h2>My Skills and Expertise</h2>
+            <div id="scontent" class="content">
+                <p>I have developed a solid foundation in several key areas of technology, complemented by my personal experiences and academic journey.</p>
+            </div>
+                <div class="newbg">
+                    <div id="C" class="row">
+                        <img src="C++.png" alt="C++" class="sphoto">
+                        <p> <b>C++</b> <br>I'm always learning new things with C++. It's become a big part of my skillset, especially when it comes to building super efficient and reliable software. I love that C++ lets me dive deep into the technical details of how systems work, and I'm constantly finding ways to make my code run faster and smoother. It's really rewarding to create powerful solutions with this language!</p>
+                    </div>
+                    <div id="HTML" class="row">
+                        <p> <b>HTML & CSS</b> <br> My journey with web development started in high school – I was building a simple bio sheet for a project, and it totally hooked me! Since then, I've been learning how to create websites that look great and work smoothly on any device. I love building interfaces that are both user-friendly and visually appealing. It's so rewarding to see people enjoy using something I've created!</p>
+                        <img src="HTML.png" alt="HTML" class="skphoto">
+                    </div>
+                    <div id="TimeManagement" class="row">
+                        <img src="TimeManagement.png" alt="Time Management" class="sphoto">
+                        <p><b>Time Management</b> <br> Staying organized and on top of things is something I'm really good at. I’m a master at prioritizing tasks, setting realistic goals, and making sure I get things done on time without sacrificing quality. It’s definitely helped me juggle my studies, personal projects, and all my extracurricular activities. I wouldn’t have it any other way!</p>
+                    </div>
+                    <div id="Teamwork" class="row">
+                        <p><b>Resourcefulness</b> <br> I'm a resourceful person who enjoys finding solutions on my own. I'm not afraid to research, explore different options, and find creative ways to get things done. This independent approach has helped me develop strong problem-solving skills and a willingness to learn.</p>
+                        <img src="Resourceful.png" alt="Independent" class="skphoto">
+                    </div>
+                </div>
+            </div>
+          
+        <div id="goal" class="section"> 
+            <div class="Header">
+                <img src="SDG17.png" alt="SDG" class="SDG-photo">
+                <h1>STRENGTHEN THE MEANS OF IMPLEMENTATION AND REVITALIZE <br>
+                    THE GLOBAL PARTNERSHIP FOR SUSTAINABLE DEVELOPMENT</h1>
+            </div>
+        <div class="newbg">
+            <div id="SDG" class="SDGcontent">
+                <div class="SDG_video">
+                    <video id="myVideo" width="640" height="360" controls> 
+                    <source src="SDG17_video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                  <div class="overlay">Smile and Learn- YouTube. https://www.youtube.com/watch?v=jcfoWx14lv0</div>
+              </div>
+            <p>Sustainable Development Goal 17, or SDG 17, is all about teamwork and collaboration. It recognizes that to tackle the big challenges we face like poverty, inequality, and climate change, we need to work together. No single country or organization can do it alone. This goal emphasizes the importance of building strong partnerships at all levels, whether it’s between countries, businesses, or communities. </p>
+            <p>One of the main focuses of SDG 17 is to strengthen the means of implementation. This means making sure that countries have the tools, resources, and support they need to achieve the other Sustainable Development Goals (SDGs). For many developing countries, this can be a real challenge. They might struggle with limited financial resources or lack access to the latest technology. By providing the necessary support, we can help these countries make real progress toward sustainable development.</p>
+            <p>Financing is a huge part of this goal. It’s about finding ways to mobilize money from different sources like governments, private companies, and international organizations to fund sustainable development projects. This could mean investing in things like education, healthcare, and clean energy. Innovative financing solutions, such as partnerships between public and private sectors, can also play a big role in ensuring that funds are available where they’re needed most.</p>
+            <p>Another important aspect of SDG 17 is the sharing of technology and knowledge. In our connected world, sharing what we know and the tools we have can help countries move forward more quickly. For example, if one country has developed a successful renewable energy project, sharing that knowledge can help others implement similar solutions. By learning from each other, we can all make better progress toward our goals.</p>
+            <p>Data and accountability are also key components of this goal. To know if we’re making progress, we need reliable data and transparent reporting. This helps ensure that governments and organizations are held accountable for their commitments. When we have good data, we can see where we stand and what still needs to be done to achieve our goals.
+            <p>Lastly, SDG 17 highlights the importance of multi-stakeholder partnerships. This means bringing together different groups, governments, businesses, civil society, and more to work toward common goals. When we include a variety of voices and perspectives, we can create more effective and inclusive solutions to the challenges we face.
+            </p>
+        </div>
+    </div>
+</div>
+
+<div id="projects" class="section"> 
+    <h2>Empowering Youth to Shape a Sustainable Future</h2>
+        <div class="newbg">
+            <div id="Project" class="ProjectContent">
+                <div class="row1">
+                    <p>Okay, imagine this: you're at a global summit focused on creating a better future for everyone. But something's missing - the voices of young people! They're the ones who will inherit the world we're trying to build, yet they're often left out of the big decisions.</p>
+                </div>
+                <div class="row1">
+                    <p>That's where "Youth Voices: Shaping a Sustainable Future" comes in. This project isn't just about giving young people a seat at the table, it's about making sure their voices are heard loud and clear. We're talking about empowering young leaders to not just speak up, but to lead the way towards a more sustainable future.</p>
+                    <img src="project-photo.png" alt="Hope" class="Hphoto">
+                </div>
+                <div class="row1">
+                    <p>Think about it: young people are the ones who are most passionate about tackling climate change, social justice issues, and building a better world. They have fresh ideas, innovative solutions, and a powerful drive to make a difference. But they need support, resources, and a platform to share their vision.</p>
+                </div>
+                <div class="row2">
+                    <img src="youth.jpg" alt="Youth" class="Yphoto">
+                    <p>That's what this project aims to do. We'll build youth councils and forums, where young people can connect, learn, and hone their leadership skills. We'll host summits like "Youth Climate Summit," where they can brainstorm solutions, share their perspectives, and develop concrete action plans. We'll provide training workshops, mentoring programs, and funding opportunities so they can launch their own projects and initiatives.</p>
+                </div>
+                <div class="row1">
+                    <p>By investing in "Youth Voices," we're not just investing in a project, we're investing in the future. We're empowering the "pagasa ng bayan," the hope of the nation, to lead the way towards a sustainable and equitable world. It's about recognizing the power of young people, their creativity, their passion, and their commitment to building a better tomorrow. Let's give them the tools, the platform, and the support they need to thrive.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="contact" class="section"> 
+        <div class="contact-item">
+            <h1>Email</h1>
+            <button class="ebutton" onclick="window.location.href='mailto:24-01351@g.batstate-u.edu.ph'"> 24-01351@g.batstate-u.edu.ph
+                <span class="tooltip-text">Click here to sent an email</span>
+            </button>
+        </div>
+        <div class="contact-item">
+            <h1>Facebook Account</h1>
+            <button class="fbutton" onclick="window.location.href='https://www.facebook.com/juliancarlo.magbuhat.5'">Julian Carlo Magbuhat
+                <span class="tooltip-text">Click here to view my Facebook Profile</span>
+            </button>
+        </div>
+        <div class="contact-item">
+            <h1>Phone Number</h1>
+            <p>0962-461-8631</p>
+        </div>
+    </div>
+
+    <div class="footer-container">
+        <footer>
+            <p>&copy; 2024 JCMagbuhat </p>
+        </footer>
+    </div> 
+</div>
+
+<script>
+
+    document.addEventListener('DOMContentLoaded', function() {
+        const introVideo = document.getElementById('intro');
+        const mainContent = document.getElementById('main-content');
+        const introVideoContainer = document.getElementById('intro-video');
+
+            if (!sessionStorage.getItem('hasVisited')) {
+                sessionStorage.setItem('hasVisited', 'true');
+                introVideoContainer.style.display = 'block'; 
+                mainContent.style.display = 'none'; 
+
+                introVideo.addEventListener('ended', function() {
+                    introVideoContainer.style.display = 'none';
+                    mainContent.style.display = 'block';
+                });
+            } else {
+                introVideoContainer.style.display = 'none';
+                mainContent.style.display = 'block'; 
+            }
+        });
+
+    function showSection(sectionId) {
+        const sections = document.querySelectorAll('.section');
+        sections.forEach(section => {
+        section.classList.remove('active');
+    });
+            
+    const sectionToShow = document.getElementById(sectionId);
+        if (sectionToShow) {
+            sectionToShow.classList.add('active');
+        }
+    }
+
+    closeDropdowns();
+        function toggleDropdown(dropdownId) {
+            const dropdown = document.getElementById(dropdownId);
+            const isVisible = dropdown.style.display === 'block';
+
+            closeDropdowns();
+
+            dropdown.style.display = isVisible ? 'none' : 'block';
+        }
+
+        function closeDropdowns() {
+            const dropdowns = document.querySelectorAll('.dropdown');
+            dropdowns.forEach(dropdown => {
+                dropdown.style.display = 'none';
+            });
+        }
+
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropdown a') && !event.target.matches('a')) {
+                closeDropdowns();
+            }
+        }
+        const rows = document.querySelectorAll('.row');
+
+        document.addEventListener('DOMContentLoaded', () => {
+    const secondaryNavbar = document.querySelector('.secondary-navbar');
+    const videoElement = document.getElementById('myVideo'); 
+
+    secondaryNavbar.addEventListener('click', () => {
+        videoElement.pause(); 
+    });
+
+    const projects = document.getElementById('projects');
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 500) {
+            projects.classList.add('animate');
+        }
+    });
+
+    function handleScroll() {
+        const skillsSection = document.getElementById('skills');
+        const skillsContent = skillsSection.querySelector('#scontent');
+        const skillsRows = skillsSection.querySelectorAll('.row');
+
+        const skillsRect = skillsSection.getBoundingClientRect();
+        if (skillsRect.top < window.innerHeight && skillsRect.bottom > 0) {
+            skillsSection.classList.add('active');
+            skillsContent.classList.add('active');
+
+            skillsRows.forEach((row, index) => {
+                setTimeout(() => {
+                    row.classList.add('active');
+                }, index * 200);
+            });
+        } else {
+            // Remove active class if out of view
+            skillsSection.classList.remove('active');
+            skillsContent.classList.remove('active');
+            skillsRows.forEach(row => row.classList.remove('active'));
+        }
+
+        const projectContent = document.getElementById('Project');
+        const projectRows = projectContent.querySelectorAll('.row1, .row2');
+        const projectRect = projectContent.getBoundingClientRect();
+        
+        if (projectRect.top < window.innerHeight && projectRect.bottom > 0) {
+            projectContent.classList.add('active');
+            projectRows.forEach((row, index) => {
+                setTimeout(() => {
+                    row.classList.add('active');
+                }, index * 200);
+            });
+        } else {
+            // Remove active class if out of view
+            projectContent.classList.remove('active');
+            projectRows.forEach(row => row.classList.remove('active'));
+        }
+
+        const sdgContent = document.getElementById('SDG');
+        const video = sdgContent.querySelector('.SDG_video');
+        const paragraphs = sdgContent.querySelectorAll('p');
+        const sdgRect = sdgContent.getBoundingClientRect();
+        
+        if (sdgRect.top < window.innerHeight && sdgRect.bottom > 0) {
+            sdgContent.classList.add('active');
+            video.classList.add('active');
+            paragraphs.forEach((paragraph, index) => {
+                setTimeout(() => {
+                    paragraph.classList.add('active');
+                }, index * 200);
+            });
+        } else {
+            // Remove active class if out of view
+            sdgContent.classList.remove('active');
+            video.classList.remove('active');
+            paragraphs.forEach(paragraph => paragraph.classList.remove('active'));
+        }
+    }
+
+    window.addEventListener('scroll', handleScroll);
+    handleScroll(); 
+});
+
+
+    </script>
+</body>
+</html>
